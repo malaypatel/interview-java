@@ -1,6 +1,5 @@
-package com.interview;
+package com.interview.domain;
 
-import com.interview.domain.CheckingAccount;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.notNullValue;

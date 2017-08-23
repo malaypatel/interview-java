@@ -20,18 +20,23 @@
 4. Install GIT
 5. Add GIT to the PATH environment variable
 6. Setup files specific for eclipse
+   
    <pre>
-    <code>gradlew.bat cleanEclipse eclipse</code>
+    <code>//Windows 
+    gradlew.bat cleanEclipse eclipse
+    //Linux
+    gradlew cleanEclipse eclipse</code>
    </pre>
 7. Compile Project and Execute Tests
    <pre>
-    <code>gradlew.bat clean build</code>
+    <code>//Windows
+    gradlew.bat clean build
+    //Linux
+    gradlew clean build</code>
    </pre>
 8. Validate gradle output message from build is:
    <pre>
    <code>
-    C:\workspace\interview-java>gradlew.bat clean build
-    
     BUILD SUCCESSFUL in 3s
     5 actionable tasks: 5 executed</code>
    </pre>
@@ -45,17 +50,21 @@
 5. Add GIT to the PATH environment variable
 6. Setup files specific for eclipse
    <pre>
-    <code>gradlew.bat cleanIdea idea</code>
+    <code>//Windows
+    gradlew.bat cleanIdea idea
+    //Linux
+    gradlew cleanIdea idea</code>
    </pre>
 7. Compile Project and Execute Tests
    <pre>
-    <code>gradlew.bat clean build</code>
+    <code>//Windows
+    gradlew.bat clean build
+    //Linux
+    gradlew clean build</code>
    </pre>
 8. Validate gradle output message from build is:
    <pre>
    <code>
-    C:\workspace\interview-java>gradlew.bat clean build
-    
     BUILD SUCCESSFUL in 3s
     5 actionable tasks: 5 executed</code>
    </pre>
