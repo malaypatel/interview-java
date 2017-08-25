@@ -25,14 +25,14 @@
     <code>//Windows 
     gradlew.bat cleanEclipse eclipse
     //Linux
-    gradlew cleanEclipse eclipse</code>
+    ./gradlew cleanEclipse eclipse</code>
    </pre>
 7. Compile Project and Execute Tests
    <pre>
     <code>//Windows
     gradlew.bat clean build
     //Linux
-    gradlew clean build</code>
+    ./gradlew clean build</code>
    </pre>
 8. Validate gradle output message from build is:
    <pre>
@@ -53,14 +53,14 @@
     <code>//Windows
     gradlew.bat cleanIdea idea
     //Linux
-    gradlew cleanIdea idea</code>
+    ./gradlew cleanIdea idea</code>
    </pre>
 7. Compile Project and Execute Tests
    <pre>
     <code>//Windows
     gradlew.bat clean build
     //Linux
-    gradlew clean build</code>
+    ./gradlew clean build</code>
    </pre>
 8. Validate gradle output message from build is:
    <pre>
