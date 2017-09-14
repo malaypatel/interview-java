@@ -31,7 +31,10 @@
 3. Add JAVA_HOME to the PATH environment variable
 4. Install GIT
 5. Add GIT to the PATH environment variable
-6. Setup files specific for eclipse
+6. Clone the repository at https://github.com/skatra/interview-java
+7. Change directories to the interview project you will work on. By default the Eclipse project files should be already created so you can now import the project into Eclipse.
+If the project files for Eclipse need to be regenerated follow the next steps.
+7. Setup files specific for eclipse
    
    <pre>
     <code>//Windows 
@@ -39,14 +42,14 @@
     //Linux
     ./gradlew cleanEclipse eclipse</code>
    </pre>
-7. Compile Project and Execute Tests
+8. Compile Project and Execute Tests
    <pre>
     <code>//Windows
     gradlew.bat clean build
     //Linux
     ./gradlew clean build</code>
    </pre>
-8. Validate gradle output message from build is:
+9. Validate gradle output message from build is:
    <pre>
    <code>
     BUILD SUCCESSFUL in 3s
@@ -60,21 +63,23 @@
 3. Add JAVA_HOME to the PATH environment variable
 4. Install GIT
 5. Add GIT to the PATH environment variable
-6. Setup files specific for eclipse
+6. Clone the repository at https://github.com/skatra/interview-java
+7. Change directories to the interview project you will work on
+8. Setup files specific for eclipse
    <pre>
     <code>//Windows
     gradlew.bat cleanIdea idea
     //Linux
     ./gradlew cleanIdea idea</code>
    </pre>
-7. Compile Project and Execute Tests
+9. Compile Project and Execute Tests
    <pre>
     <code>//Windows
     gradlew.bat clean build
     //Linux
     ./gradlew clean build</code>
    </pre>
-8. Validate gradle output message from build is:
+10. Validate gradle output message from build is:
    <pre>
    <code>
     BUILD SUCCESSFUL in 3s
