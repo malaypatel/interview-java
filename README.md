@@ -13,7 +13,18 @@
 5. [Object Oriented Design](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 
 ## Setup
-### If you are using [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neonr) please follow these steps.
+
+### If you are using [Eclipse] and have the GIT plugin for Eclipse installed with the Git Repositories view (http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neonr) please follow these steps.
+
+1. Run Eclipse, and go to the Git Repositories view
+2. Select "Clone a Git Repository"
+3. Select "Clone URI"
+4. In the URI field enter "https://github.com/skatra/interview-java.git" and hit Finish
+5. Select the Repo in your Git Repositories view and select "Import Projects"
+6. Select the project for the Interview and click Finish
+7. The project should now be imported into your Package Explorer view
+
+### If you are using [Eclipse] and want to clone the project from the command line (http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neonr) please follow these steps.
 
 1. Install Java
 2. Setup JAVA_HOME environment variable
