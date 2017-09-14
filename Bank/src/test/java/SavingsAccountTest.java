@@ -6,8 +6,8 @@ public class SavingsAccountTest {
 
 	@Test
 	public void testGetBalance() {
-		CheckingAccount checkingAccount = new CheckingAccount();
-		assertNotNull(checkingAccount);
+		SavingsAccount savingsAccount = new SavingsAccount();
+		assertNotNull(savingsAccount);
 	}
 	
 
